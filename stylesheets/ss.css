@@ -1,5 +1,5 @@
 body {
-    background-color: #E3D2CB;
+    background-color: #E3E1D9;
     margin: 0;
     padding: 0;
     font-family: "Raleway";
@@ -19,6 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    opacity: 0.8;
 }
 
 li {
@@ -32,7 +33,7 @@ svg {
 
 li a {
     display: block;
-    color: #3C3A79;
+    color: #26333B;
     text-align: center;
     padding: 22px;
     text-decoration: none;
@@ -77,7 +78,7 @@ li a {
 .article {
     width: 30%;
     padding: 20px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -96,36 +97,38 @@ li a {
 
 .article p {
     font-size: 16px;
-    color: #3C3A79;
+    color: #26333B;
 }
 
 h2{
     font-family: "Elephant-Regular";
-    color: #3C3A79;
+    color: #26333B;
 }
 
 .footer {
     background-color: whitesmoke;
     padding: 20px 0;
     text-align: center;
+    color: #8C9A9A;
+    opacity: 0.8;
 }
 
 .footer .social-media a {
     margin: 0 10px;
     text-decoration: none;
-    color: #3C3A79;
+    color: #8C9A9A;
     font-weight: bold;
 }
 
 .footer .tel {
-    color: #3C3A79;
+    color: #8C9A9A;
     font-weight: bold;
 }
 
 .footer .related-links a {
     margin: 0 15px;
     text-decoration: none;
-    color: #3C3A79;
+    color: #8C9A9A;
 }
 
 .footer .related-links a:last-child {
@@ -221,6 +224,6 @@ nav .dropdown {
     display: none;
 }
 
-.vi{
+.vi {
     display: none;
 }
